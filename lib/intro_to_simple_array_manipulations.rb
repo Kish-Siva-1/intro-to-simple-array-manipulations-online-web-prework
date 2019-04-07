@@ -33,8 +33,6 @@ end
 def using_flatten (arr1)
   arr1.flatten
 end
-
- "takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings" do 
     
 def using_delete (arr1, str1)
   array.delete(arg)
