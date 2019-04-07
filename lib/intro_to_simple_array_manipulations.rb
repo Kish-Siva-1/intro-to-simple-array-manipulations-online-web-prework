@@ -31,7 +31,7 @@ def using_uniq (arr)
 end
 
 def using_flatten (arr1)
-  array.shift(arg)
+  array.flatten(arr1)
 end
 
  "takes in an argument of an array that contains other arrays and uses the flatten method to return an array of strings" do 
