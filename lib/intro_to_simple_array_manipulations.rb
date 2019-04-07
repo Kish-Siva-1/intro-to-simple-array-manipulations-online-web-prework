@@ -14,9 +14,11 @@ def pop_with_args(array, string)
   array.pop(string)
 end
 
-def using_shift (array, string)
-  array.shift(string)
+def using_shift (arg)
+  array.shift(arg)
 end
+
+
 
 describe "#using_shift" do 
   before(:each) do 
