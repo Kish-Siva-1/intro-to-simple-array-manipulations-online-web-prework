@@ -27,7 +27,7 @@ def using_insert (arr,element)
 end
   
 def using_uniq (arr)
-    
+    arr.uniq
 end
 
 "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
