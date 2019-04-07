@@ -18,26 +18,11 @@ def using_shift(arg)
   array.shift(arg)
 end
 
-def shift_with_args(arg)
-  array.shift(arg)
+def using_concat(arr1,arr2)
+  array.concat(arr1,arr2)
 end
 
-describe "#def using_shift (arg)
-  array.shift(arg)
-end" do 
-  before(:each) do 
-    @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-    @brands_removed = shift_with_args(@ice_cream_brands)
-  end
-  
-  it "takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array" do 
-    expect(@brands_removed).to eq(["Blue Bell Creameries", "Ben & Jerry's"])
-  end
 
-  it "decreases the length of the array by 2" do 
-    expect(@brands_removed.size).to eq(2)
-  end
-end
 
 describe "#using_concat" do 
   before(:each) do 
