@@ -38,8 +38,8 @@ def using_delete (arr1, str1)
   arr1.delete(str1)
 end
 
-def using_delete_at (arr1)
-  arr1.shift(arg)
+def using_delete_at (arr1,int1)
+  arr1.delete_at(arg)
 end
 
  "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
