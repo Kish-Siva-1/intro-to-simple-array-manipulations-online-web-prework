@@ -35,13 +35,11 @@ def using_flatten (arr1)
 end
     
 def using_delete (arr1, str1)
-  array.delete(arg)
+  arr1.delete(str1)
 end
 
- "takes in two arguments, an array and a string, and uses the delete method to remove any items from the array that are equal to that string" do
-
 def using_delete_at (arr1)
-  array.shift(arg)
+  arr1.shift(arg)
 end
 
  "takes in two arguments, an array and an integer and deletes the element at the index of the array that is equal to that integer" do 
