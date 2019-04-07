@@ -22,8 +22,8 @@ def using_concat(arr1,arr2)
   arr1.concat(arr2)
 end
 
-def using_insert (arg1,arg2,arr,element)
-  arr.insert()
+def using_insert (arr,element)
+  arr.insert(element)
 end
 
 "takes in two arguments, an array and a new element to be added to the array. it uses the insert method to add the new element to the 4th index of the array" do 
